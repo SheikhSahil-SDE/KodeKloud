@@ -24,7 +24,10 @@
             |----------- Fargate
 
             ECS Cluster
-
+            ECS vs Fargate
+            ECS Task
+            ECS Services
+            Load Balancer
             
 
 
