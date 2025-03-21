@@ -1,6 +1,24 @@
   Module 1: Introduction
+            What is ECS
+            Working with AWS ECS
+            ECS Task
+            ECS Services
+            ECS Infrastructure and Launch
 
   Module 2: Understanding ECS
+
+            What is ECS?
+            ECS is a managed container orchestrator like Docker Swarm and K8s. It is provided/managed exclusively by AWS.
+            Manage the lifecycle of containers Create/restart/destroy.
+            Also responsible for deploy & Load-Balancer across multiple servers
+            Autoscaling to handle variance in traffic
+            Rolling out newer versions of the application without affecting the user experience.
+
+            ECS vs Others
+            
+
+            
+
 
   Module 3: Working with AWS
 
