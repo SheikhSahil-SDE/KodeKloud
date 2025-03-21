@@ -15,7 +15,15 @@
             Rolling out newer versions of the application without affecting the user experience.
 
             ECS vs Others
-            
+            Docker Compose can utilize only one server, whereas K8s, Docker Swarm, Nomad by HashiCorp, or Apache Mesos. They all require a lot of effort to get up and running. Complex & hard to work with.
+            Whereas ECS is a simple orchestrating alternative.
+
+            ECS Infrastructure and Launch
+            ECS has two launch types
+            |  |-------- EC2
+            |----------- Fargate
+
+            ECS Cluster
 
             
 
