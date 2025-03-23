@@ -29,11 +29,11 @@
             ECS manages the containers    
 
             ECS vs Fargate
-            In Fargate: AWS manages the underlying infrastructure
-            Fargate follows Serverless architecture
-            Fargate will create servers on demand
-            No need to provision/maintain EC2 servers
-            Pay-As-Per-Use
+              In Fargate: AWS manages the underlying infrastructure
+              Fargate follows Serverless architecture
+              Fargate will create servers on demand
+              No need to provision/maintain EC2 servers
+              Pay-As-Per-Use
     
             ECS Task
             Task definition file - 
