@@ -22,17 +22,37 @@
             ECS has two launch types
             |  |-------- EC2
             |----------- Fargate
-
+  
             ECS Cluster
+            EC2 - We have to manage the underlying EC2 instances
+            ECS Control Plane (The Brain)
+            ECS manages the containers    
+
             ECS vs Fargate
+            In Fargate: AWS manages the underlying infrastructure
+            Fargate follows Serverless architecture
+            Fargate will create servers on demand
+            No need to provision/maintain EC2 servers
+            Pay-As-Per-Use
+    
             ECS Task
+            Task definition file - 
+            Contains the blueprint that describes how containers should launch
+            How much CPU/MEM
+            Which Image/Port/Volumes           
+
             ECS Services
+            A service ensures that a certain number of tasks are running at all times
+            Also, restart the container that has exited/crashed.
+            If the EC2 instance fails, the service will restart task on a working EC2 instance
+
             Load Balancer
-            
-
-
+            A Load Balancer can be assigned to route external traffic to your service, to evenly distribute the traffic.
+                       
+      
   Module 3: Working with AWS
 
-  Module 4: Deploying a new applcation
+
+  Module 4: Deploying a new application
 
   Module 5: Conclusion
