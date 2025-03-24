@@ -51,8 +51,25 @@
                        
       
   Module 3: Working with AWS
+
+            *Getting started with ECS
+                Selected ECS > Get started > Cluster configuration > Cluster name
+                Selected Infrastructure AWS Fargate (serverless)
+                Given image repository. 
+
+            *Understanding project configuration
+                Using Fargate (serverless)
+                Checked the configurations 
+                Application is running at port:3000
+
+            *Deleting cluster
+                 Deleted the Task & cluster           
             
 
   Module 4: Deploying a new application
+            Creating New cluster
+
+            Creating Task Definition
+
 
   Module 5: Conclusion
