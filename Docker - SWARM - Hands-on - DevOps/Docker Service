@@ -1,1 +1,53 @@
 
+
+1. How many nodes are part of Docker swarm currently?
+   CMD~ $ docker node ls
+  O/P : Error response from daemon: This node is not a swarm manager. i.e Zero
+
+2. Let's initialize a swarm cluster on the node controlplane(controlplane is the host name of the server you are currently on)
+    This will be a single-node swarm cluster.
+    Use --advertise-addr and make use of the IP address assigned to eth0
+
+ANS : To retrieve the IP address of eth0, use this command: 
+
+      $ ifconfig eth0 | grep 'inet ' | awk '{print $2}' | sed 's/addr://'
+      
+    Run the following command to initialize Docker Swarm with the advertised IP address of eth0: 
+
+      $ docker swarm init --advertise-addr <IP_ADDRESS of eth0>
+
+  O/P : node controlplane is the leader
+
+3. Create a service called simple-web-app with image kodekloud/webapp-color, 3 replicas. 
+   The service should be published on port 8083 and make use of environment variable APP_COLOR=pink
+   the webapp runs on container port 8080
+
+ANS : $ docker service create --name simple-web-app --replicas 3 -p 8083:8080 -e APP_COLOR=pink kodekloud/webapp-color
+      
+          This command will:
+                            
+                            Create a service named simple-web-app.
+                            Deploy 3 replicas of the service.
+                            Expose the service on port 8083, mapping it to port 8080 of the container.
+                            Set the APP_COLOR environment variable to pink for the service.
+
+    O/P : Env APP_COLR=pink
+          image: kodekloud/webapp_color
+          Service published on port 8083
+          3 Replicas Running
+
+4. Scale the replicas for service simple-web-app to 4
+
+ANS : $ docker service update simple-web-app --replicas 4
+O/P : Replicas scaled to 4
+
+
+
+
+
+
+
+
+
+
+
