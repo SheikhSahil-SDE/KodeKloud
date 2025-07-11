@@ -1,9 +1,9 @@
   Module 1: Introduction
-            What is ECS
-            Working with AWS ECS
-            ECS Task
-            ECS Services
-            ECS Infrastructure and Launch
+            - What is ECS
+            - Working with AWS ECS
+            - ECS Task
+            - ECS Services
+            - ECS Infrastructure and Launch
 
   Module 2: Understanding ECS
 
