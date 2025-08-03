@@ -53,7 +53,7 @@
               - Carbs:
 ```
 
-Dictionary in Dictionary
+- Dictionary in Dictionary
 <br>Sample:
 ```
       Color: blue
@@ -63,3 +63,36 @@ Dictionary in Dictionary
       Transmission: Manual
       Price: $20,000
 ```
+
+#YAML Notes
+- Dictionary: Unordered collection
+- List/Arrays: Ordered collection
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
