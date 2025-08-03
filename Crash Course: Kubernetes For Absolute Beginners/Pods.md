@@ -7,3 +7,7 @@ application. A pod is the smallest object that we can create in K8s.
 
 #Lab
 
+CMD $ ```kubectl get pods -o wide```
+
+This command lists all pods with additional details, including the nodes they are placed on. 
+The -o wide option provides the extra info you need! 🚀
