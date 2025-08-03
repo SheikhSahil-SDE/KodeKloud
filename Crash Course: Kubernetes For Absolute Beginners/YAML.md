@@ -51,3 +51,15 @@
               - Calories:
               - Fat:
               - Carbs:
+```
+
+Dictionary in Dictionary
+<br>Sample:
+```
+      Color: blue
+      Model:
+        Name: Corvette
+        Year: 1995
+      Transmission: Manual
+      Price: $20,000
+```
